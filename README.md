@@ -2,7 +2,8 @@
 
 Assignment 1: Fimiliarising my self with ocaml syntax
 
-Assignment 2: 
+Assignment 2:
+
 Q1.1: Defining an intersection function
 
 Q1.2: Convert propositions to  Negation Normal Form (NNF)
@@ -18,6 +19,7 @@ Q1.6: implement the function cnf_tautology: cnf -> bool that tells us when a pro
 Q2: Use structural induction to prove that a head-recurive expression and a tail-recursiove version are equivalent
 
 Assignment 3:
+
 Q1.1: Return a list of successive even numbers starting with 0
 
 Q1.2: Write a function let fib (max : int): int list = ... that returns a list of Fibonacci numbers that are smaller than max
@@ -52,6 +54,7 @@ Q3.6: Write the function 'eq' that compares two lists. In particular we want the
         3. Lists with different lengths may be equal if their contents go together one by one.
 
 Assignment 4:
+
 Q1.1: Implement a function to backtrack throught a tree with Exceptions
 
 Q1.2: Implement a function to backtrack throught a tree with Fail Continuations
@@ -80,6 +83,7 @@ Q3.4: Implement the function val rat_of_real : int stream -> float -> float
 Q3.5: Implement the function real_of_rat : float -> int stream that computes the real number representation of floating point value
 
 Assignment 5:
+
 Q1 - Q2: Extending semantics definitions on paper (see PDF)
 
 Q3.1: Implement a module called DeadCode of type Optimization so we can eliminate expressions
