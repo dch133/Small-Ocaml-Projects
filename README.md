@@ -32,6 +32,27 @@ Q3.6: Write the function 'eq' that compares two lists. In particular we want the
         3. Lists with different lengths may be equal if their contents go together one by one.
 
 Assignment 4:
+Q1.1: Implement a function to backtrack throught a tree with Exceptions
+Q1.2: Implement a function to backtrack throught a tree with Fail Continuations
+Q1.3:  Implement a function to backtrack throught a tree with Success Continuations
+Q2.1: Implement a module named: FractionArith of type Arith that uses a value of type fraction as its internal representation
+Q2.2: Implement a functor named: Newton (using the Newton-Raphson method) that takes a module 
+      of type Arith to produce a module of type NewtonSolver.
+      This module should allow us to approximate the square root function two internal representations (floats and fractions)
+Q3.1: Implement the function q : int stream -> int -> int
+Q3.2: Implement the function r: int stream -> int -> float
+Q3.3: Implement the function error: int stream -> int -> float Using the definition above.
+      This function takes the stream, the number n of terms in the approximation
+      and returns a bound for the error
+Q3.4: Implement the function val rat_of_real : int stream -> float -> float
+      that takes a string and an error bound and computes a rational approximation of the
+      real number using the functions r, q and error. Because we are getting an approximation,
+      our function will always inspect finitely many elements of the stream.
+Q3.5: Implement the function real_of_rat : float -> int stream that computes the real number representation of floating point value
 
 Assignment 5:
-
+Q1 - Q2: Extending semantics definitions on paper (see PDF)
+Q3.1: Implement a module called DeadCode of type Optimization so we can eliminate expressions
+      that are assigned to a variable but the variable is never used
+Q3.2: Implement a module called RemoveLetMatch of type Optimization to transform pattern matching 'lets' into the
+      regular 'lets' and then take the pairs apart using projections
