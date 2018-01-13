@@ -4,11 +4,17 @@ Assignment 1: Fimiliarising my self with ocaml syntax
 
 Assignment 2: 
 Q1.1: Defining an intersection function
+
 Q1.2: Convert propositions to  Negation Normal Form (NNF)
+
 Q1.3: Defining a type Conjunctive Normal Form (CNF)
+
 Q1.4: Implement funtion distribution over CNF experssions and convert NNF to CNF
+
 Q1.5: collect positives and negatives from a proposition in CNF
+
 Q1.6: implement the function cnf_tautology: cnf -> bool that tells us when a proposition in CNF is a tautology
+
 Q2: Use structural induction to prove that a head-recurive expression and a tail-recursiove version are equivalent
 
 Assignment 3:
