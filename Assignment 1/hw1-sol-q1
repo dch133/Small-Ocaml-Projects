@@ -1,0 +1,57 @@
+Note that depending on how you corrected the errors below while debugging
+the code, you may have needed to correct runtime errors in the functions.
+
+----------------------------------------------------------------
+
+File "hw1-fixme.ml", line 35, characters 30-32:
+Error: Syntax error
+
+Change "of" to "with" in line 35
+
+-----------------------------------------------------------------
+
+File "hw1-fixme.ml", line 36, characters 6-8:
+Error: Syntax error
+
+Change "=>" to "->" in lines 36 & 37
+
+-----------------------------------------------------------------
+
+File "hw1-fixme.ml", line 54, characters 4-6:
+Error: Syntax error
+
+Add "|" at the beginning of lines 53-55
+
+-----------------------------------------------------------------
+
+File "hw1-fixme.ml", line 35, characters 28-29:
+Error: Unbound value n
+
+Classification: Type error
+
+Define the variable n in the function declaration 
+"let inc (n:int) (k:int)"
+
+-----------------------------------------------------------------
+
+File "hw1-fixme.ml", line 37, characters 15-18:
+Error: Unbound value inc
+Did you mean incr?
+
+Classification: Type error
+
+The function inc is undefined inside of the function inc, since it
+is not a recursive function. 
+Since the function doesn't need to be recursive, remove the call
+to inc, and replace lines 36-37 with the line
+"| _ -> k + n"
+
+-----------------------------------------------------------------
+
+File "hw1-fixme.ml", line 53, characters 6-17:
+Error: This expression has type float but an expression was expected of type int
+
+Classification: Type error
+
+Change the values returned in the first two patterm matching statements to ints
+instead of floats. The return values in lines 51 & 52 become 1 instead of 1.0.
